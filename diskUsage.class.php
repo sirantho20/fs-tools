@@ -65,10 +65,17 @@ class diskUsage {
         fclose($file);
     }
 
+    public function addCSvHeader()
+    {
+        $file = fopen('dusage.csv','r+');
+        fputcsv($file, $this->header);
+        fclose($file);
+    }
+
     public function mail()
     {
         $this->update();
-
+        $this->addCSvHeader();
         require 'vendor/autoload.php';
 
         //Create a new PHPMailer instance

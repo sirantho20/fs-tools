@@ -1,4 +1,4 @@
-vendor/
+vendor
 too.sh
 test.php
 config-local.php
