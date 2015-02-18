@@ -2,3 +2,5 @@ vendor
 too.sh
 test.php
 config-local.php
+dusage.csv
+dusage.csv.gz
