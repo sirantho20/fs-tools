@@ -51,8 +51,8 @@
       <file leaf-file-name="diskUsage.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diskUsage.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30612245" vertical-offset="2730" max-vertical-offset="3717">
-              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.18367347" vertical-offset="2793" max-vertical-offset="3717">
+              <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -225,7 +225,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424352737629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="path updates">
+      <created>1424353828882</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424353828882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/diskUsage.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30612245" vertical-offset="2730" max-vertical-offset="3717">
-          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.18367347" vertical-offset="2793" max-vertical-offset="3717">
+          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -139,7 +139,7 @@ class diskUsage {
 
         } else {
             //echo "Message sent!";
-            unlink('dusage.csv.gz');
+            unlink($this->config['file_location'].'dusage.csv.gz');
             //unlink('dusage.csv');
         }
     }
