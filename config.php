@@ -11,4 +11,6 @@ return [
     'smtp_password' =>'',
     // SMTP port. for e.g. 587 => for gmail submission
     'smtp_port' => 587,
+    // File path where  data files are store e.g. /your/file/path/
+    'file_location' => ''
 ];

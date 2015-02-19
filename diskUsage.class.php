@@ -60,14 +60,14 @@ class diskUsage {
 
     public function csvDump()
     {
-        $file = fopen('dusage.csv','a');
+        $file = fopen($this->config['file_location'].'dusage.csv','a');
         fputcsv($file, [$this->date, $this->total, $this->used, $this->available, $this->mysql, $this->mail, $this->log, $this->application]);
         fclose($file);
     }
 
     public function addCSvHeader()
     {
-        $file = fopen('dusage.csv','r+');
+        $file = fopen($this->config['file_location'].'dusage.csv','r+');
         fputcsv($file, $this->header);
         fclose($file);
     }
@@ -131,7 +131,7 @@ class diskUsage {
         //$mail->AltBody = 'This is a plain-text message body';
 
         //Attach a file
-        $mail->addAttachment($this->gzCompressFile('dusage.csv'));
+        $mail->addAttachment($this->gzCompressFile($this->config['file_location'].'dusage.csv'));
 
         //send the message, check for errors
         if (!$mail->send()) {
