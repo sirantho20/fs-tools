@@ -140,7 +140,7 @@ class diskUsage {
         } else {
             //echo "Message sent!";
             unlink('dusage.csv.gz');
-            unlink('dusage.csv');
+            //unlink('dusage.csv');
         }
     }
 
